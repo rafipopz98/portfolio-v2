@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="hero.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="hcontainer">
+      <div class="hrow hrow-1 hborder-bottom">
+        <div class="hbrand-name hflex-center hborder-right">
+          <div class="hheader">
+            <h1>open day</h1>
+          </div>
+        </div>
+
+        <div class="hbrand-contact hflex-center">
+          <div class="hcontact-container">
+            <p>Sunday</p>
+            <p>16:00</p>
+            <p>31 August 2024</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hrow row-2 hborder-bottom">
+        <div class="hero-copy hborder-right">
+          <div class="hi-row hi-row1">
+            <div class="hcol hprojects">
+              <div class="hproject-list">
+                <p>Irakli</p>
+                <p>Berikashvli</p>
+                <p>Aka</p>
+                <p>BERIKA</p>
+                <p>SPACEJAM</p>
+              </div>
+              <div class="h-stripe"><span>303_hr</span></div>
+            </div>
+            <div class="hcol hcircle-text hflex-center">
+              <div class="htext">
+                <svg viewBox="0 0 100 100" width="200" height="200">
+                  <defs>
+                    <path
+                      id="circle"
+                      d="
+                      M 50,50
+                      m -37,0
+                      a 37,37 0 1,1 74,0
+                      a 37,37 0 1,1 -74,0"
+                    />
+                  </defs>
+                  <text font-size="14">
+                    <textpath xlink:href="#circle">
+                      sunday sunday sunday sunday sunday
+                    </textpath>
+                  </text>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="hi-row hi-row2">
+            <div class="hcol hlets-talk hflex-center">
+              <p>let's talk about <span>mixing</span></p>
+            </div>
+            <div class="hcol hstripe">
+              <div class="hline"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-img">
+          <div class="himg-container hborder-right">
+            <div class="hbox"></div>
+            <div>
+              <img src="Luffy.jpeg" class="himage" alt="" />
+            </div>
+          </div>
+
+          <div class="hempty-rows">
+            <div class="hwhite-space hborder-bottom"></div>
+            <div class="hwhite-space"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hmarquee">
+      <span>
+        Software Engineer&middot;Web3&middot; Software Engineer
+        &nbsp; &middot; Web3 &nbsp; &middot; Software Engineer &nbsp; &middot;
+        Web3 &nbsp; &middot; Software Engineer &nbsp; &middot; Web3 &nbsp;
+        &middot; Software Engineer &nbsp; &middot; Web3 &nbsp; &middot; Software
+        Engineer &nbsp; &middot; Web3 &nbsp; &middot; Software Engineer &nbsp;
+        &middot; Web3 &nbsp; &middot; Software Engineer &nbsp; &middot; Web3
+        &nbsp; &middot; Software Engineer &nbsp; &middot; Web3 &nbsp; &middot;
+        Software Engineer &nbsp; &middot; Web3 &nbsp; &middot; Software Engineer
+        &nbsp; &middot; Web3 &nbsp; &middot; Software Engineer &nbsp; &middot;
+        Web3 &nbsp; &middot; Software Engineer &nbsp; &middot; Web3 &nbsp;
+        &middot; Software Engineer &nbsp; &middot; Web3 &nbsp; &middot; Software
+        Engineer &nbsp; &middot; Web3 &nbsp; &middot; Software Engineer &nbsp;
+        &middot; Web3 &nbsp; &middot; Software Engineer &nbsp; &middot; Web3
+        &nbsp; &middot; Software Engineer &nbsp; &middot; Web3 &nbsp; &middot;
+        Software Engineer &nbsp; &middot; Web3 &nbsp; &middot; Software Engineer
+        &nbsp; &middot; Web3 &nbsp; &middot; Software Engineer &nbsp; &middot;
+        Web3 &nbsp; &middot; Software Engineer &nbsp; &middot; Web3 &nbsp;
+        &middot; Software Engineer &nbsp; &middot; Web3 &nbsp; &middot; Software
+        Engineer &nbsp; &middot; Web3 &nbsp; &middot; Software Engineer &nbsp;
+        &middot; Web3 &nbsp; &middot;
+      </span>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script>
+      gsap.to(".hrow-1, .hrow-2", 1, {
+        top: 0,
+        ease: "power4.out",
+        delay: 1,
+        stagger: {
+          amount: 0.5,
+        },
+      });
+
+      gsap.to(".hbrand-name", 1, {
+        left: 0,
+        ease: "power4.out",
+        delay: 2.5,
+        stagger: {
+          amount: 0.5,
+        },
+      });
+
+      gsap.from(".hlets-talk p", 0.1, {
+        opacity: 0,
+        ease: "power4.out",
+        delay: 2,
+      });
+
+      gsap.from(".htext", 2, {
+        scale: 0,
+        ease: "power4.out",
+        delay: 2,
+      });
+
+      gsap.from(".htext", 20, {
+        rotation: 360,
+        ease: Linear.easeNone,
+        repeat: -1,
+      });
+
+      gsap.to(".hbox", 1, {
+        top: "100%",
+        ease: "power4.out",
+        delay: 2,
+      });
+
+      gsap.to(".h1 , p", 1, {
+        top: 0,
+        ease: "power4.out",
+        delay: 2,
+        stagger: {
+          amount: 0.5,
+        },
+      });
+
+      gsap.from(".h-stripe", 1, {
+        top: "500%",
+        ease: "power4.out",
+        delay: 4,
+      });
+
+      gsap.from(".hline", 1, {
+        scaleX: 0,
+        ease: "power4.out",
+        delay: 3.5,
+      });
+
+      gsap.from(".hmarquee", 1, {
+        bottom: "-10em",
+        ease: "power4.out",
+        delay: 3,
+      });
+    </script>
+  </body>
+</html>

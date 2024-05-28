@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <link rel="stylesheet" href="contact.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="page_transition"></div>
+    <div class="C_container">
+      <div class="C_top_nav">
+        <p>Muhammad Rafi. Personal Portfolio. Software Engineer. Web3.</p>
+      </div>
+      <div class="C_nav">
+        <a class="C_site-name" href="../index.html" style="color: #fff"
+          >RAFI.</a
+        >
+        <div class="C_branding">
+          <p>2024</p>
+        </div>
+        <div class="C_menu-icon" id="time">
+          On 3 45PM <ion-icon name="filter-sharp"></ion-icon>
+        </div>
+      </div>
+      <div class="C_marquee">
+        <span>
+          contact us <ion-icon name="trending-up-sharp"></ion-icon> contact us
+          <ion-icon name="trending-down-sharp"></ion-icon> contact us
+          <ion-icon name="trending-up-sharp"></ion-icon> contact us
+          <ion-icon name="trending-down-sharp"></ion-icon>
+          contact us <ion-icon name="trending-up-sharp"></ion-icon> contact us
+          <ion-icon name="trending-down-sharp"></ion-icon> contact us
+          <ion-icon name="trending-up-sharp"></ion-icon> contact us
+          <ion-icon name="trending-down-sharp"></ion-icon>
+          contact us <ion-icon name="trending-up-sharp"></ion-icon> contact us
+          <ion-icon name="trending-down-sharp"></ion-icon> contact us
+          <ion-icon name="trending-up-sharp"></ion-icon> contact us
+          <ion-icon name="trending-down-sharp"></ion-icon>
+          contact us <ion-icon name="trending-up-sharp"></ion-icon> contact us
+          <ion-icon name="trending-down-sharp"></ion-icon> contact us
+          <ion-icon name="trending-up-sharp"></ion-icon> contact us
+          <ion-icon name="trending-down-sharp"></ion-icon>
+          contact us <ion-icon name="trending-up-sharp"></ion-icon> contact us
+          <ion-icon name="trending-down-sharp"></ion-icon> contact us
+          <ion-icon name="trending-up-sharp"></ion-icon> contact us
+          <ion-icon name="trending-down-sharp"></ion-icon>
+        </span>
+      </div>
+      <div class="C_contact-section">
+        <div class="C_contact-details C_col">
+          <p>Get In Touch.</p>
+          <div class="C_social-media C_item">
+            <h3>Social Media</h3>
+            <span>TWITTTER &middot; LinkedIn &middot; GITHUB &middot;</span>
+          </div>
+          <div class="C_contact-info">
+            <div class="C_email C_item">
+              <h3>Get in Touch</h3>
+              <span
+                >HELLO<ion-icon name="at-sharp"></ion-icon>BASEMENT.STUDIO</span
+              >
+            </div>
+
+            <div class="C_address C_item">
+              <h3>location</h3>
+              <span>Bangalore. India</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="C_contact-form C_col">
+          <div class="C_wrapper">
+            <div class="C_row">
+              <input type="text" placeholder="First Name " />
+              <input type="text" placeholder="Second Name" />
+            </div>
+
+            <div class="C_row">
+              <input type="text" placeholder="Email " />
+            </div>
+
+            <div class="C_row">
+              <textarea
+                name=""
+                id="message"
+                rows="5"
+                placeholder="Message "
+              ></textarea>
+            </div>
+            <div class="C_row C_submit">
+              <a href="#">Submit</a>
+              <ion-icon
+                class="C_send-icon"
+                name="arrow-forward-sharp"
+              ></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function updateTime() {
+        const now = new Date();
+        let hours = now.getHours();
+        const minutes = String(now.getMinutes()).padStart(2, "0");
+        const isAm = hours < 12;
+        const amPm = isAm ? "AM" : "PM";
+
+        // Convert to 12-hour format
+        hours = hours % 12;
+        hours = hours ? hours : 12; // hour '0' should be '12'
+
+        const timeString = `Current Time ${hours} ${minutes} ${amPm}`;
+        document.getElementById("time").textContent = timeString;
+      }
+
+      // Update the time immediately
+      updateTime();
+
+      // Update the time every second
+      setInterval(updateTime, 1000);
+    </script>
+  </body>
+</html>

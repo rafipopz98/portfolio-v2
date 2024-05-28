@@ -1,0 +1,173 @@
+<html lang="en">
+  <head>
+    <!DOCTYPE html>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="web2.css" />
+    <link rel="stylesheet" href="background.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="background.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <title>WEB3</title>
+  </head>
+  <body>
+    <div class="transition"></div>
+    <div
+      class="C_top_nav"
+      style="position: relative; z-index: 100000; background-color: #131313"
+    >
+      <p>Muhammad Rafi. Personal Portfolio. Software Engineer. Web3.</p>
+    </div>
+    <div
+      class="C_nav"
+      style="position: relative; z-index: 100000; background-color: #131313"
+    >
+      <a
+        class="C_site-name"
+        href="index.html"
+        style="color: white"
+        >RAFI.</a
+      >
+      <div class="C_branding">
+        <p class="toggle menu-clos">Menu</p>
+      </div>
+      <div class="C_menu-icon" id="time">
+        On 3 45PM <ion-icon name="filter-sharp"></ion-icon>
+      </div>
+    </div>
+    <div class="blocks-container">
+      <div id="blocks"></div>
+    </div>
+
+    <div>
+      <div class="web2_footer">
+        <p>rafi &copy; 2024</p>
+      </div>
+      <div class="web2_overlay">
+        <div class="web2_overlay_header">
+          <div class="web2_col">
+            <h1 class="web2_item_name">Item Name</h1>
+            <p class="web2_item_category">Item Category</p>
+          </div>
+          <div class="web2_col">
+            <p class="web2_close_btn" style="color: #000">
+              Close <i class="fa-solid fa-xmark"></i>
+            </p>
+          </div>
+        </div>
+        <div class="web2_item_details">
+          <p>
+            <a href="#" id="web2_item_link" target="_blank"
+              ><i class="ph-bold ph-arrow-up-right"></i>View Site</a
+            >
+          </p>
+          <p class="web2_item_copy" style="color: #000">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+            voluptas nam, quidem delectus vero nisi asperiores esse distinctio
+            aliquam, tenetur illo cumque ab autem. A aperiam ratione amet
+            consectetur eligendi!
+          </p>
+        </div>
+        <div class="web2_img_container">
+          <img src="Luffy.jpeg" id="web2_item_img" alt="" />
+        </div>
+      </div>
+      <div class="web2_container">
+        <div class="web2_items">
+          <div class="web2_item">
+            <div class="web2_item_index">01.</div>
+            <div class="web2_item_name">Twitter Clone</div>
+            <div class="web2_item_year">2024</div>
+          </div>
+          <div class="web2_item">
+            <div class="web2_item_index">02.</div>
+            <div class="web2_item_name">Amazon Clone</div>
+            <div class="web2_item_year">2024</div>
+          </div>
+          <div class="web2_item">
+            <div class="web2_item_index">03.</div>
+            <div class="web2_item_name">Voting System</div>
+            <div class="web2_item_year">2024</div>
+          </div>
+          <div class="web2_item">
+            <div class="web2_item_index">04.</div>
+            <div class="web2_item_name">Crypto Exchange</div>
+            <div class="web2_item_year">2024</div>
+          </div>
+          <div class="web2_item">
+            <div class="web2_item_index">05.</div>
+            <div class="web2_item_name">Market Place</div>
+            <div class="web2_item_year">2024</div>
+          </div>
+          <div class="web2_item">
+            <div class="web2_item_index">06.</div>
+            <div class="web2_item_name">More on my Github</div>
+            <div class="web2_item_year">2024</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- left side -->
+    <div class="container">
+      <div class="menu">
+        <div class="col">
+          <div class="logo">Rafi</div>
+          <div class="links">
+            <div class="link">
+              <a href="#">Web2</a>
+            </div>
+            <div class="link">
+              <a href="#">Web3</a>
+            </div>
+            <div class="link">
+              <a href="#">Go</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- right side -->
+        <div class="col">
+          <div class="tagline">
+            <p>Personal Portfolio</p>
+            <div class="close-btn">
+              <i style="color: #fff" class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+          <div class="gaga links flex">
+            <div class="link">
+              <a href="#">Lets get in <br />touch</a>
+            </div>
+            <div class="link"><a href="#">Resume</a></div>
+          </div>
+        </div>
+        <div class="divider"></div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="web3.js"></script>
+    <script>
+      function updateTime() {
+        let now = new Date();
+        let istOffset = 5.5 * 60 * 60 * 1000;
+        let istTime = new Date(
+          now.getTime() + now.getTimezoneOffset() * 60000 + istOffset
+        );
+        let hours = istTime.getHours();
+        let minutes = istTime.getMinutes();
+        hours = hours < 10 ? "0" + hours : hours;
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        document.getElementById(
+          "time"
+        ).innerHTML = `ON ${hours}&middot;${minutes}`;
+      }
+      updateTime();
+      setInterval(updateTime, 60000);
+    </script>
+  </body>
+</html>

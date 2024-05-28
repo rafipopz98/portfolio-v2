@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendly//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20240517T213449Z
+UID:calendly-987752559
+DTSTART:20240520T045000Z
+DTEND:20240520T045100Z
+CLASS:PRIVATE
+DESCRIPTION:Event Name: Assessment for Backend Software Web Engineer (m/f/x
+ )\nEvent Description: We would like to invite you to book an assessment wi
+ th us as your first application step!Please note that the assessment offic
+ ially starts at 8am Central European Time and lasts approximately 3-4 hour
+ s!However\, you will receive the tasks a little earlier to avoid booking c
+ onflicts on Calendly and if you want\, you can start straight away. If it
+  suits your schedule better\, you can do the assessment later in the day t
+ oo.In the assessment you can show us your skills and get to know what we e
+ xpect for your position. Please make sure that you have enough time on the
+  day you book\, to be able to work on your tasks calmly.If you have any qu
+ estions\, feel free to contact us at teamhr@payever.org. To keep the condi
+ tions equal for all applicants we cannot answer questions on the content o
+ f the tasks.We are looking forward to working with you!\nDate & Time: 06:5
+ 0am - 06:51am (Central European Time) on Monday\, May 20\, 2024\nLocation:
+  on the Website\n\nWhat is your LinkedIn-URL?: https://www.linkedin.com/in
+ /muhammad-rafi-5ba799218/\n\nNeed to make changes to this event?\nCancel: 
+ https://calendly.com/cancellations/0ae63ec5-5914-4a77-a583-9e7a3c0705df\nR
+ eschedule: https://calendly.com/reschedulings/0ae63ec5-5914-4a77-a583-9e7a
+ 3c0705df\n
+LOCATION:on the Website
+SUMMARY:Assessment for Backend Software Web Engineer (m/f/x) with payever C
+ areers
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
