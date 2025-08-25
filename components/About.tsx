@@ -22,7 +22,7 @@ export default function About() {
             href="https://virtualstaff.ph/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white"
+            className="text-foreground"
           >
             VirtualStaff.ph,
           </a>{" "}
@@ -38,7 +38,7 @@ export default function About() {
             href="https://qs2500.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white"
+            className="text-foreground"
           >
             Quantum Strategies,
           </a>{" "}
