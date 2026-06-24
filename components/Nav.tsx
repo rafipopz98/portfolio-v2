@@ -55,15 +55,16 @@ export default function Nav() {
         <h1 className="text-[42px] font-bold lg:text-start">Muhammad Rafi</h1>
         <h2 className="text-xl lg:text-start">Software Engineer</h2>
         <p className="text-lg lg:text-start text-muted-foreground">
-          I'm a software engineer who loves building full-stack web apps,
-          reliable APIs, and smooth CI/CD pipelines.
+          I'm a software engineer focused on building products from scratch —
+          from backend systems and payment infrastructure to user-facing
+          applications used at scale.
         </p>
       </div>
       <nav className="lg:flex hidden">
         <ul className="flex flex-col w-max text-start gap-6 uppercase text-xs font-medium">
           {navItems.map((item: NavItem) => {
             const { linkClass, indicatorClass, textClass } = getNavItemClasses(
-              item.href
+              item.href,
             );
             return (
               <li key={item.name} className="group">

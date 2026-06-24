@@ -16,12 +16,12 @@ const jobPositions = [
     place: "VirtualStaff.ph",
     previousPositions: ["Software Engineer"],
     description: [
-      "At VirtualStaff.ph, I've been building and maintaining the core product and its features.",
-      "My role mainly involves developing scalable APIs, integrating with the frontend, and building interactive user interfaces.",
-      "I also played a key role in our payment systems, helping launch a new product that now processes 350+ transactions every month and generates over $35K in monthly profits.",
-      "I introduced a new algorithm for talent salary recommendations.",
+      "At VirtualStaff.ph, I work on the core platform powering hiring, payroll, and compliance for 1M+ users.",
+      "Built and shipped the Seat System from scratch, integrating Stripe payments and generating $50K+ revenue.",
+      "Built a payroll calculation engine handling USD-to-PHP conversions, FX rates, guaranteed staff payouts, and automated invoices.",
+      "Optimized APIs and database queries across high-traffic systems.",
+      "Work directly with customer support and internal teams to debug production issues and ship improvements quickly.",
       "Cross-collaborated with the marketing team to build a custom Google Analytics page and implemented 50+ internal features to boost SEO, publish blog posts, and track user engagement.",
-      "Worked closely with the customer support team to build an admin panel with hundreds of features for managing users and their data.",
     ],
     skills: [
       "MERN Stack",
@@ -41,7 +41,7 @@ const jobPositions = [
     previousPositions: [""],
     description: [
       "Worked with Unity to build simulations for space missions. Connected a 6DOF engine written in C++ to the simulations in Unity through shared memory access.",
-      "Reduced the latency in communication between Unity gameplay and the 6DOF engine by shifting from UDP mode of communication to shared memory access.",
+      "Integrated Unity simulations with a C++ based 6DOF engine using shared memory communication, reducing latency compared to UDP communication.",
     ],
     skills: ["C#", "C++", "Unity", "Computer Networks"],
   },
@@ -51,10 +51,10 @@ const jobPositions = [
     place: "Quantum Strategies",
     previousPositions: [""],
     description: [
-      "Early-stage startup with a team of 3.",
+      "Joined as one of the first engineers in a 3-person startup team.",
       "Engineered and built a comprehensive backend system from scratch, utilizing TDD principles to ensure robust and maintainable code.",
       "Developed a user-friendly frontend interface, integrating seamlessly with the backend services.",
-      "Built real-time notifications, events, points system, and an admin panel to manage users and many additional features.",
+      "Designed APIs, authentication, notifications, points system, and admin workflows.",
       "Implemented CI/CD pipelines to automate testing and deployment processes, enhancing development efficiency and product reliability.",
       "Collaborated with QA engineers and product managers to successfully launch the product before the deadline.",
     ],
@@ -79,6 +79,7 @@ const jobPositions = [
     description: [
       "Worked as a freelancer, building various projects for organizations and individuals.",
       "Developed a wide range of applications, including e-commerce platforms, content management systems, and 3D interior and exterior showcasing applications.",
+      "Built RentQuicker, a rental marketplace with property listings, booking workflows, PPP-based regional pricing, and Stripe/PayPal payment integrations.",
       "Designed UI/UX for multiple clients and assisted sophomore students with their final year projects.",
     ],
     skills: [

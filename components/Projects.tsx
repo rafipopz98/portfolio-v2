@@ -14,7 +14,7 @@ const jobProjects = [
     imagePath: "/virtualstaff.png",
     title: "VirtualStaff Core Product",
     description:
-      "An all-in-one platform that connects employers with Filipino talent, offering hiring, payroll, and compliance in one place.",
+      "Worked on the core product handling hiring, payroll, subscriptions, payments, admin systems, and internal tooling.",
     skills: [
       "Backend Development",
       "Frontend Development",
