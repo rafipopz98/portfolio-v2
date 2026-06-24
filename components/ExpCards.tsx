@@ -140,7 +140,7 @@ export default function ExpCard() {
       </>
       <div className="lg:px-12 mt-12 flex gap-8">
         <a
-          href="https://drive.google.com/file/d/19eiZJqZPshH74sJVB6knH90_p81t1uvG/view"
+          href="https://drive.google.com/file/d/1oAIKfhaHEtIIdgfB0jn52yP1IHsJxQFB/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center font-medium leading-tight text-foreground group"
